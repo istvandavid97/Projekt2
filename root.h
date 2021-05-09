@@ -25,6 +25,7 @@ void insert(root **pRoot, char nev[], int belepesi_ido);
 void inorder(root *pRoot);
 int findMaxforN(root* pRoot, int belepesi_ido);
 void emberRegisztral(root **pRoot,char nev[], int belepesi_ido);
+root *Find(root *fa, int a);
 
 
 

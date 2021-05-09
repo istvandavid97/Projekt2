@@ -3,4 +3,4 @@ project(Projekt2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Projekt2 main.c root.c root.h)
+add_executable(Projekt2 main.c root.c root.h queue.c queue.h)

@@ -77,3 +77,17 @@ void emberRegisztral(root **pRoot,char nev[], int belepesi_ido){
         printf("%s regisztralt!\n", nev);
     }
 }
+
+root *Find(root *fa, int a) {
+    if(fa == NULL) { return 0; }
+    if(a == fa->belepesi_ido) {
+        return fa;
+    }
+    else
+    {
+        if(a < fa->belepesi_ido)
+        Find(fa->bal, a);
+        else
+            Find(fa->jobb, a);
+    }
+}

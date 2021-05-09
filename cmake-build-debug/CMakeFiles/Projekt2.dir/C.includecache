@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
-D:/Work/Adatszerkezet I/Projekt2/root.c
+D:/Work/Adatszerkezet I/Projekt2/main.c
 root.h
 D:/Work/Adatszerkezet I/Projekt2/root.h
+queue.h
+D:/Work/Adatszerkezet I/Projekt2/queue.h
+
+D:/Work/Adatszerkezet I/Projekt2/queue.h
+stdio.h
+-
+malloc.h
+D:/Work/Adatszerkezet I/Projekt2/malloc.h
+limits.h
+-
+string.h
+-
 
 D:/Work/Adatszerkezet I/Projekt2/root.h
 stdio.h
