@@ -86,7 +86,7 @@ root *Find(root *fa, int a) {
     else
     {
         if(a < fa->belepesi_ido)
-        Find(fa->bal, a);
+            Find(fa->bal, a);
         else
             Find(fa->jobb, a);
     }

@@ -1,4 +1,4 @@
-"C:\Program Files (x86)\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Work\Adatszerkezet I\Projekt2"
+"E:\CLion\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Fejlett programozasi nyelvek\Algoritmusok es adatszerkezetek\Projekt2"
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Work/Adatszerkezet I/Projekt2/cmake-build-debug
+-- Build files have been written to: E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/cmake-build-debug

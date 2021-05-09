@@ -45,10 +45,9 @@ int main() {
             insert_q(&first,&last,p_root->belepesi_ido+30,p_root->nev);
         }
         if (isEmpty(first) == 0 ) {
-            printf("*");
             if (first->q_kilepesi_ido == ora*60+perc) {
                 printf("%d:%d-kor %s kilepett!\n",ora,perc,first->q_nev);
-              //  delete(&first);
+                delete(&first);
             }
         }
         ++perc;

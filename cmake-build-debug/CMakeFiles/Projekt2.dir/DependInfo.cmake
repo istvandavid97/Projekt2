@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Work/Adatszerkezet I/Projekt2/main.c" "D:/Work/Adatszerkezet I/Projekt2/cmake-build-debug/CMakeFiles/Projekt2.dir/main.c.obj"
-  "D:/Work/Adatszerkezet I/Projekt2/queue.c" "D:/Work/Adatszerkezet I/Projekt2/cmake-build-debug/CMakeFiles/Projekt2.dir/queue.c.obj"
-  "D:/Work/Adatszerkezet I/Projekt2/root.c" "D:/Work/Adatszerkezet I/Projekt2/cmake-build-debug/CMakeFiles/Projekt2.dir/root.c.obj"
+  "E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/main.c" "E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/cmake-build-debug/CMakeFiles/Projekt2.dir/main.c.obj"
+  "E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/queue.c" "E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/cmake-build-debug/CMakeFiles/Projekt2.dir/queue.c.obj"
+  "E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/root.c" "E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/cmake-build-debug/CMakeFiles/Projekt2.dir/root.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
