@@ -168,6 +168,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt2.dir\build.make CMakeFiles/Projekt2.dir/main.c.s
 .PHONY : main.c.s
 
+root.obj: root.c.obj
+
+.PHONY : root.obj
+
+# target to build an object file
+root.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt2.dir\build.make CMakeFiles/Projekt2.dir/root.c.obj
+.PHONY : root.c.obj
+
+root.i: root.c.i
+
+.PHONY : root.i
+
+# target to preprocess a source file
+root.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt2.dir\build.make CMakeFiles/Projekt2.dir/root.c.i
+.PHONY : root.c.i
+
+root.s: root.c.s
+
+.PHONY : root.s
+
+# target to generate assembly for a file
+root.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt2.dir\build.make CMakeFiles/Projekt2.dir/root.c.s
+.PHONY : root.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... root.obj
+	@echo ... root.i
+	@echo ... root.s
 .PHONY : help
 
 

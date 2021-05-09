@@ -77,6 +77,12 @@
 		<Unit filename="D:/Work/Adatszerkezet I/Projekt2/main.c">
 			<Option target="Projekt2"/>
 		</Unit>
+		<Unit filename="D:/Work/Adatszerkezet I/Projekt2/root.c">
+			<Option target="Projekt2"/>
+		</Unit>
+		<Unit filename="D:/Work/Adatszerkezet I/Projekt2/root.h">
+			<Option target="Projekt2"/>
+		</Unit>
 		<Unit filename="D:/Work/Adatszerkezet I/Projekt2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
