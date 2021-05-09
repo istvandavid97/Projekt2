@@ -57,7 +57,7 @@ int findMaxforN(root* pRoot, int belepesi_ido)
     else if (pRoot->belepesi_ido > belepesi_ido)
         return findMaxforN(pRoot->bal, belepesi_ido);
 }
-void emberRegisztral(root **pRoot,char nev[], int belepesi_ido, int max_ember){
+void emberRegisztral(root **pRoot,char nev[], int belepesi_ido){
     int max=0;
     int be_ido;
     be_ido = findMaxforN(*pRoot,belepesi_ido+30);
@@ -70,8 +70,8 @@ void emberRegisztral(root **pRoot,char nev[], int belepesi_ido, int max_ember){
             be_ido=findMaxforN(*pRoot,be_ido);
         }
     }
-    if (max==max_ember){
-        printf("Ebben az idopontban nem lehet belepni, max 5 ember!\n");
+    if (max==MAX_EMBER){
+        printf("Ebben az idopontban nem lehet belepni, max %d ember!\n",MAX_EMBER);
     }else{
         insert(pRoot,nev,belepesi_ido);
         printf("%s regisztralt!\n", nev);

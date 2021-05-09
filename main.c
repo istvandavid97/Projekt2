@@ -2,15 +2,29 @@
 
 int main() {
     root* root = NULL;
-    emberRegisztral(&root,"Janos",68,5);
-    emberRegisztral(&root,"Attila",71,5);
-    emberRegisztral(&root,"Bela",66,5);
-    emberRegisztral(&root,"Karcsi",70,5);
-    emberRegisztral(&root,"Margit",65,5);
-    emberRegisztral(&root,"Anna",67,5);
-    emberRegisztral(&root,"Peter",69,5);
-    emberRegisztral(&root,"Julia",41,5);
-    //inorder(root);
+    char valasz[5];
+    int szam;
+    char nev[25];
+    int belepesi_ido_ora;
+    int belepesi_ido_perc;
+
+    printf("1. Regisztracio\n");
+    printf("2. Kilepes\n");
+    printf(">>");
+    scanf("%s",valasz);
+    while (strcmp(valasz,"2")!=0) {
+        if (atoi(valasz) == 1){
+            printf("Kerek egy nevet:");
+            scanf("%s",nev);
+            printf("Hany orakor?");
+            scanf("%d",&belepesi_ido_ora);
+            printf("Hany perckor?");
+            scanf("%d",&belepesi_ido_perc);
+            emberRegisztral(&root,nev,belepesi_ido_ora*60+belepesi_ido_perc);
+        }
+        printf(">>");
+        scanf("%s",valasz);
+    }
 
     return 0;
 }
