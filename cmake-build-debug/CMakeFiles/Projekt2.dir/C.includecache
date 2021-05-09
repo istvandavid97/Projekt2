@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/main.c
+root.h
+E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/root.h
+
+E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/root.h
+stdio.h
+-
+malloc.h
+-
+string.h
+E:/Fejlett programozasi nyelvek/Algoritmusok es adatszerkezetek/Projekt2/string.h
+
