@@ -9,6 +9,7 @@ int main() {
     emberRegisztral(&root,"Margit",65,5);
     emberRegisztral(&root,"Anna",67,5);
     emberRegisztral(&root,"Peter",69,5);
+    emberRegisztral(&root,"Julia",41,5);
     //inorder(root);
 
     return 0;
