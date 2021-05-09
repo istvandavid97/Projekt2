@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Work/Adatszerkezet I/Projekt2/main.c
+root.h
+D:/Work/Adatszerkezet I/Projekt2/root.h
+
+D:/Work/Adatszerkezet I/Projekt2/root.c
+root.h
+D:/Work/Adatszerkezet I/Projekt2/root.h
+
+D:/Work/Adatszerkezet I/Projekt2/root.h
+stdio.h
+-
+malloc.h
+-
+string.h
+D:/Work/Adatszerkezet I/Projekt2/string.h
+
